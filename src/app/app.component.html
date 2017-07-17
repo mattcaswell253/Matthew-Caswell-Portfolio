@@ -1,0 +1,47 @@
+<div class="header">
+	<div class="logo">
+		<i class="fa fa-tachometer"></i>
+		<span>Brand</span>
+	</div>
+	<a href="#" class="nav-trigger"><span></span></a>
+</div>
+<div class="side-nav">
+	<!-- <div class="logo">
+		<i class="fa fa-tachometer"></i>
+		<span>Brand</span>
+	</div> -->
+	<nav>
+		<div class="side-bar">
+		<ul>
+			<li>
+				<a routerLink="">
+					<span><i class="fa fa-home"></i></span>
+					<!-- <span>Home</span> -->
+				</a>
+			</li>
+			<li>
+				<a routerLink="about">
+					<span><i class="fa fa-user "></i></span>
+					<!-- <span>About Me</span> -->
+				</a>
+			</li>
+			<li class="active">
+				<a routerLink="project">
+					<span><i class="fa fa-folder-open "></i></span>
+					<!-- <span>Projects</span> -->
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<span><i class="fa fa-phone"></i></span>
+					<!-- <span>Contact</span> -->
+				</a>
+			</li>
+		</ul>
+		</div>
+	</nav>
+</div>
+<div class="main-content">
+		<router-outlet></router-outlet>
+
+</div>
