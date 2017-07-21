@@ -16,18 +16,22 @@ body {
   height: 100vh;
   z-index: 3;
   padding-top: 44px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .side-nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  position: absolute;
-  top: 35%;
-  left: 10%;
+  position: relative;
+  left: 15px;
 }
  .side-nav ul li {
    padding: 20px 10px;
    border-bottom: 1px solid white;
+   width: 40px;
+   text-align: center;
  }
  .side-nav ul li:nth-child(4){
    border-bottom: none;
@@ -38,6 +42,8 @@ body {
  }
  .side-nav ul li i {
    color: white;
+   font-size: 20px;
+   text-align: center;
  }
  .main-content{
    padding-top: 44px;
@@ -48,13 +54,15 @@ body {
      width: 80px;
    }
    .side-nav ul li {
-     text-align: left;
+     text-align: center;
+     width: 50px;
    }
    .side-nav ul li span:nth-child(2) {
      display: none;
    }
    .side-nav ul li i{
      font-size: 28px;
+     text-align: center;
    }
    .main-content {
      margin-left: 80px;
@@ -65,13 +73,15 @@ body {
      width: 100px;
    }
    .side-nav ul li {
-     text-align: left;
+     text-align: center;
+     width: 60px;
    }
    .side-nav ul li span:nth-child(2) {
      display: inline;
    }
    .side-nav ul li i {
-     font-size: 30px;
+     font-size: 40px;
+     text-align: center;
    }
    .main-content {
      margin-left: 100px;
