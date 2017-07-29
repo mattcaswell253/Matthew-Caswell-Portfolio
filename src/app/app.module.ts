@@ -9,13 +9,15 @@ import { routing } from './app.routing';
 import { AboutComponent } from './about/about.component';
 import { ProjectComponent } from './project/project.component';
 import { AngularFontAwesomeModule } from 'angular-font-awesome/angular-font-awesome';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WelcomeComponent,
     AboutComponent,
-    ProjectComponent
+    ProjectComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
