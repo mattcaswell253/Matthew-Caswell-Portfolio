@@ -24,7 +24,7 @@ import { ContactComponent } from './contact/contact.component';
     FormsModule,
     HttpModule,
     AngularFontAwesomeModule,
-    routing
+    routing,
   ],
   providers: [],
   bootstrap: [AppComponent]

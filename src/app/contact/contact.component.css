@@ -18,8 +18,21 @@ h1{
   color: white;
   font-size: 8vh;
   position: relative;
-  bottom: 25%;
+  bottom: 15%;
   border-bottom: 1px solid white;
+}
+h3{
+  color: white;
+  font-family: 'PT Mono', monospace;
+  position: relative;
+  bottom: 10%;
+}
+h3 a{
+  color: red;
+}
+h4{
+  color: white;
+  font-family: 'PT Mono', monospace;
 }
 .fa{
   font-size: 20vh;

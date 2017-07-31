@@ -1,0 +1,80 @@
+.project{
+  height: 100vh;
+  width: 100vw;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background:
+  linear-gradient(
+      rgba(40,40,40,.45),
+      rgba(40,40,40,.45)
+      ),
+      url("../images/projectpage1.jpg");
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+}
+h1{
+  color: white;
+  position: relative;
+  top: 50px;
+  font-size: 8vh;
+  border-bottom: 2px solid white;
+  font-family: 'PT Mono', monospace;
+}
+.work-example1{
+  position: relative;
+  top: 50%;
+  background: url("../images/Work-Example4.png");
+  width: 40vw;
+  height: 50vh;
+  background-size: 100% 100%;
+  border: 2px solid white;
+}
+.work-example2{
+  position: relative;
+  top: 50%;
+  background: url("../images/Work-Example1.png");
+  width: 40vw;
+  height: 50vh;
+  background-size: 100% 100%;
+  border: 2px solid white;
+}
+.work-example3{
+  position: relative;
+  top: 50%;
+  background: url("../images/Work-Example2.png");
+  width: 40vw;
+  height: 50vh;
+  background-size: 100% 100%;
+  border: 2px solid white;
+}
+  .work-example4{
+    position: relative;
+    top: 50%;
+    background: url("../images/Work-Example3.png");
+    width: 40vw;
+    height: 50vh;
+    background-size: 100% 100%;
+    border: 2px solid white;
+  }
+.thumbnails{
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 100px;
+}
+.thumbnails2{
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
