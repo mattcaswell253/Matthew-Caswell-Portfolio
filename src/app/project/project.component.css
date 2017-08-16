@@ -8,53 +8,52 @@
   top: 0;
   background:
   linear-gradient(
-      rgba(40,40,40,.45),
-      rgba(40,40,40,.45)
-      ),
-      url("../images/projectpage1.jpg");
-  overflow: scroll;
-  overflow-x: hidden;
-}
-
-.title{
-  display: flex;
-  justify-content: center;
-}
-h1{
-  color: white;
-  position: relative;
-  top: 50px;
-  font-size: 8vh;
-  border-bottom: 2px solid white;
-  font-family: 'PT Mono', monospace;
-}
-.work-example1{
-  /*position: relative;
-  top: 50%;
-  left: 60%;*/
-  background: url("../images/Work-Example4.png");
-  width: 40vw;
-  height: 50vh;
-  background-size: 100% 100%;
-  border: 2px solid white;
-}
-.work-example2{
-  /*position: relative;
-  top: 50%;*/
-  background: url("../images/Work-Example1.png");
-  width: 40vw;
-  height: 50vh;
-  background-size: 100% 100%;
-  border: 2px solid white;
-}
-.work-example3{
-  position: relative;
-  background: url("../images/Work-Example2.png");
-  width: 40vw;
-  height: 50vh;
-  background-size: 100% 100%;
-  border: 2px solid white;
-}
+    rgba(40,40,40,.45),
+    rgba(40,40,40,.45)
+    ),
+    url("../images/projectpage1.jpg");
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+  .title{
+    display: flex;
+    justify-content: center;
+  }
+  h1{
+    color: white;
+    position: relative;
+    top: 50px;
+    font-size: 8vh;
+    border-bottom: 2px solid white;
+    font-family: 'PT Mono', monospace;
+  }
+  .work-example1{
+    /*position: relative;
+    top: 50%;
+    left: 60%;*/
+    background: url("../images/Work-Example4.png");
+    width: 40vw;
+    height: 50vh;
+    background-size: 100% 100%;
+    border: 2px solid white;
+  }
+  .work-example2{
+    /*position: relative;
+    top: 50%;*/
+    background: url("../images/Work-Example1.png");
+    width: 40vw;
+    height: 50vh;
+    background-size: 100% 100%;
+    border: 2px solid white;
+  }
+  .work-example3{
+    position: relative;
+    background: url("../images/Work-Example2.png");
+    width: 40vw;
+    height: 50vh;
+    background-size: 100% 100%;
+    border: 2px solid white;
+  }
   .work-example4{
     position: relative;
     background: url("../images/Work-Example3.png");
@@ -90,50 +89,47 @@ h1{
   }
   .work-example8{
     position: relative;
-
     background: url("../images/Work-Example8.png");
     width: 40vw;
     height: 50vh;
     background-size: 100% 100%;
     border: 2px solid white;
   }
-.thumbnails{
-  display: flex;
-  justify-content: space-around;
-  position: relative;
-  top: 100px;
-  margin-right: 10px;
-}
-
-.thumbnails2{
-  display: flex;
-  justify-content: space-around;
-  position: relative;
-  top: 100px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-right: 10px;
-}
-.thumbnails3{
-  display: flex;
-  justify-content: space-around;
-  position: relative;
-  top: 100px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-right: 10px;
-}
-.thumbnails4 {
-  display: flex;
-  justify-content: space-around;
-  position: relative;
-  top: 100px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-right: 10px;
-}
-
-label {
+  .thumbnails{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 100px;
+    margin-right: 10px;
+  }
+  .thumbnails2{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+  }
+  .thumbnails3{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+  }
+  .thumbnails4 {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+  }
+  label {
     -webkit-perspective: 1000px;
     perspective: 1000px;
     -webkit-transform-style: preserve-3d;
@@ -147,10 +143,9 @@ label {
     /*-webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);*/
     cursor: pointer;
-}
-.card {
+  }
+  .card {
     position: relative;
-
     height: 100%;
     width: 100%;
     -webkit-transform-style: preserve-3d;
@@ -158,46 +153,142 @@ label {
     -webkit-transition: all 600ms;
     transition: all 600ms;
     z-index: 20;
-}
+  }
+  .card div {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    /*line-height: 200px;*/
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 10px;
+  }
 
-    .card div {
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        text-align: center;
-        /*line-height: 200px;*/
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
-        border-radius: 2px;
-    }
+  .card .back {
+    position: relative;
+    /*background: #222;
+    color: #FFF;*/
+    width: 40vw;
+    height: 50vh;
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+  }
+  .back1{
+    background:
+    linear-gradient(
+      rgba(40,40,40,.90),
+      rgba(40,40,40,.90)
+      ),
+      url("../images/work-example4.png");
+      background-size: 100% 100%;
+      border: 2px solid white;
+  }
+  .back2{
+    background:
+    linear-gradient(
+      rgba(40,40,40,.90),
+      rgba(40,40,40,.90)
+      ),
+      url("../images/work-example1.png");
+      background-size: 100% 100%;
+      border: 2px solid white;
+  }
+  .back3{
+    background:
+    linear-gradient(
+      rgba(40,40,40,.90),
+      rgba(40,40,40,.90)
+      ),
+      url("../images/work-example2.png");
+      background-size: 100% 100%;
+      border: 2px solid white;
+  }
+  .back4{
+    background:
+    linear-gradient(
+      rgba(40,40,40,.90),
+      rgba(40,40,40,.90)
+      ),
+      url("../images/work-example3.png");
+      background-size: 100% 100%;
+      border: 2px solid white;
+  }
+  .back5{
+    background:
+    linear-gradient(
+      rgba(40,40,40,.90),
+      rgba(40,40,40,.90)
+      ),
+      url("../images/work-example5.png");
+      background-size: 100% 100%;
+      border: 2px solid white;
+  }
+  .back6{
+    background:
+    linear-gradient(
+      rgba(40,40,40,.90),
+      rgba(40,40,40,.90)
+      ),
+      url("../images/work-example6.png");
+      background-size: 100% 100%;
+      border: 2px solid white;
+  }
+  .back7{
+    background:
+    linear-gradient(
+      rgba(40,40,40,.90),
+      rgba(40,40,40,.90)
+      ),
+      url("../images/work-example7.png");
+      background-size: 100% 100%;
+      border: 2px solid white;
+  }
+  .back8{
+    background:
+    linear-gradient(
+      rgba(40,40,40,.90),
+      rgba(40,40,40,.90)
+      ),
+      url("../images/work-example8.png");
+      background-size: 100% 100%;
+      border: 2px solid white;
+  }
+  .login{
+    font-family: 'PT Mono', monospace;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .login ul{
+    /*list-style: none;*/
+    font-size: 4vh;
+    margin-top: 20px;
+  }
+  .card-title{
+    font-size: 5vh;
+    color: white;
+    border-bottom: 2px solid white;
+  }
 
-    .card .back {
-      position: relative;
-        background: #222;
-        color: #FFF;
-        width: 40vw;
-        height: 50vh;
-        -webkit-transform: rotateX(180deg);
-        transform: rotateX(180deg);
-    }
-
-label:hover .card {
+  label:hover .card {
     -webkit-transform: rotateX(20deg);
     transform: rotateX(20deg);
-    box-shadow: 0 20px 20px rgba(50,50,50,.2);
-}
+    box-shadow: 20px 20px 20px rgba(50,50,50,.2);
+  }
 
-input {
+  input {
     display: none;
-}
+  }
 
-:checked + .card {
+  :checked + .card {
     transform: rotateX(180deg);
     -webkit-transform: rotateX(180deg);
-}
-
-label:hover :checked + .card {
+  }
+  label:hover :checked + .card {
     transform: rotateX(160deg);
     -webkit-transform: rotateX(160deg);
-    box-shadow: 0 20px 20px rgba(255,255,255,.2);
-}
+    box-shadow: 20px 20px 20px rgba(255,255,255,.2);
+  }
