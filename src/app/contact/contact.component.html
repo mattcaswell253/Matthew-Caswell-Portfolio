@@ -3,6 +3,33 @@
   <h3>If you have any questions or need to hire a Junior Developer please get in contact.</h3>
   <h3>You can E-mail me at <a href="mailto:matthewcaswell253@gmail.com">matthewcaswell253@gmail.com</a> or call me: (253) 266-3091 </h3>
   <div class="contact-icons">
+    <div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Leave any questions or comments here.</h3>
+  </div>
+  <div class="panel-body">
+    <div>
+      <div>
+        <label>Name:</label>
+        <br>
+        <input #newName>
+      </div>
+
+      <div>
+        <label>E-mail:</label>
+        <br>
+        <input #newEmail>
+      </div>
+
+      <div>
+        <label>Questions/Comments: </label>
+        <br>
+        <textarea #newComment></textarea>
+      </div>
+      <button (click)="submitForm(newName.value, newEmail.value, newComment.value); newName.value=''; newEmail.value=''; newComment.value=''">Send!</button>
+    </div>
+  </div>
+</div>
     <ul class="icon-list">
        <li> <a href="https://www.linkedin.com/in/matthew-caswell/"> <i  class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
        <li> <a href="https://github.com/mattcaswell253"> <i class="fa fa-github" aria-hidden="true"></i></a></li>

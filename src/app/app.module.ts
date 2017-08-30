@@ -10,6 +10,15 @@ import { AboutComponent } from './about/about.component';
 import { ProjectComponent } from './project/project.component';
 import { AngularFontAwesomeModule } from 'angular-font-awesome/angular-font-awesome';
 import { ContactComponent } from './contact/contact.component';
+import { masterFirebaseConfig } from  './api-keys';
+import { AngularFireModule } from 'angularfire2';
+import { AngularFireDatabaseModule } from 'angularfire2/database';
+
+export const firebaseConfig = {
+  apiKey: masterFirebaseConfig.apiKey,
+  authDomain: masterFirebaseConfig.authDomain,
+  databaseURL: masterFirebaseConfig.databaseURL,
+};
 
 @NgModule({
   declarations: [
@@ -25,8 +34,11 @@ import { ContactComponent } from './contact/contact.component';
     HttpModule,
     AngularFontAwesomeModule,
     routing,
+    AngularFireModule.initializeApp(firebaseConfig),
+    AngularFireDatabaseModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
