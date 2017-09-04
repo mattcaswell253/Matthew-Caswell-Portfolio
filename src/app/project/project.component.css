@@ -27,69 +27,69 @@
     border-bottom: 2px solid white;
     font-family: 'PT Mono', monospace;
   }
-  .work-example1{
+  .work-example-one{
     /*position: relative;
     top: 50%;
     left: 60%;*/
-    background: url("../images/Work-Example4.png");
+    background: url("../images/four.png");
     width: 40vw;
     height: 50vh;
     background-size: 100% 100%;
     border: 2px solid white;
   }
-  .work-example2{
+  .work-example-two{
     /*position: relative;
     top: 50%;*/
-    background: url("../images/Work-Example1.png");
+    background: url("../images/one.png");
     width: 40vw;
     height: 50vh;
     background-size: 100% 100%;
     border: 2px solid white;
   }
-  .work-example3{
+  .work-example-three{
     position: relative;
-    background: url("../images/Work-Example2.png");
+    background: url("../images/two.png");
     width: 40vw;
     height: 50vh;
     background-size: 100% 100%;
     border: 2px solid white;
   }
-  .work-example4{
+  .work-example-four{
     position: relative;
-    background: url("../images/Work-Example3.png");
+    background: url("../images/three.png");
     width: 40vw;
     height: 50vh;
     background-size: 100% 100%;
     border: 2px solid white;
   }
-  .work-example5{
+  .work-example-five{
     position: relative;
-    background: url("../images/Work-Example5.png");
+    background: url("../images/five.png");
     width: 40vw;
     height: 50vh;
     background-size: 100% 100%;
     border: 2px solid white;
   }
-  .work-example6{
+  .work-example-six{
     position: relative;
-    background: url("../images/Work-Example6.png");
+    background: url("../images/six.png");
     width: 40vw;
     height: 50vh;
     background-size: 100% 100%;
     border: 2px solid white;
   }
-  .work-example7{
+  .work-example-seven{
     position: relative;
 
-    background: url("../images/Work-Example7.png");
+    background: url("../images/seven.png");
     width: 40vw;
     height: 50vh;
     background-size: 100% 100%;
     border: 2px solid white;
   }
-  .work-example8{
+  .work-example-eight{
     position: relative;
-    background: url("../images/Work-Example8.png");
+    background: url("../images/eight.png");
     width: 40vw;
     height: 50vh;
     background-size: 100% 100%;
@@ -180,7 +180,7 @@
       rgba(40,40,40,.90),
       rgba(40,40,40,.90)
       ),
-      url("../images/work-example4.png");
+      url("../images/four.png");
       background-size: 100% 100%;
       border: 2px solid white;
   }
@@ -190,7 +190,7 @@
       rgba(40,40,40,.90),
       rgba(40,40,40,.90)
       ),
-      url("../images/work-example1.png");
+      url("../images/one.png");
       background-size: 100% 100%;
       border: 2px solid white;
   }
@@ -200,7 +200,7 @@
       rgba(40,40,40,.90),
       rgba(40,40,40,.90)
       ),
-      url("../images/work-example2.png");
+      url("../images/two.png");
       background-size: 100% 100%;
       border: 2px solid white;
   }
@@ -210,7 +210,7 @@
       rgba(40,40,40,.90),
       rgba(40,40,40,.90)
       ),
-      url("../images/work-example3.png");
+      url("../images/three.png");
       background-size: 100% 100%;
       border: 2px solid white;
   }
@@ -220,7 +220,7 @@
       rgba(40,40,40,.90),
       rgba(40,40,40,.90)
       ),
-      url("../images/work-example5.png");
+      url("../images/five.png");
       background-size: 100% 100%;
       border: 2px solid white;
   }
@@ -230,7 +230,7 @@
       rgba(40,40,40,.90),
       rgba(40,40,40,.90)
       ),
-      url("../images/work-example6.png");
+      url("../images/six.png");
       background-size: 100% 100%;
       border: 2px solid white;
   }
@@ -240,7 +240,7 @@
       rgba(40,40,40,.90),
       rgba(40,40,40,.90)
       ),
-      url("../images/work-example7.png");
+      url("../images/seven.png");
       background-size: 100% 100%;
       border: 2px solid white;
   }
@@ -250,7 +250,7 @@
       rgba(40,40,40,.90),
       rgba(40,40,40,.90)
       ),
-      url("../images/work-example8.png");
+      url("../images/eight.png");
       background-size: 100% 100%;
       border: 2px solid white;
   }

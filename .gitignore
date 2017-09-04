@@ -8,6 +8,7 @@
 # dependencies
 /node_modules
 /bower_components
+/functions/node_modules
 
 #Firebase credentials
 /src/app/api-keys.ts

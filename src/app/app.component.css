@@ -17,13 +17,14 @@ body {
 }
 .logo{
   position: absolute;
-  left: 93%;
+  right: 2%;
+  top: 15px;
 }
 .side-nav {
   position: absolute;
   width: 100%;
   background-color: transparent;
-  height: 100vh;
+  height: 100%;
   z-index: 3;
   padding-top: 44px;
   display: flex;
@@ -57,7 +58,7 @@ body {
  }
  .main-content{
    padding-top: 44px;
-   height: 100vh;
+   height: 100%;
  }
  @media screen and (min-width: 600px) {
    .side-nav {
@@ -65,13 +66,13 @@ body {
    }
    .side-nav ul li {
      text-align: center;
-     width: 50px;
+     width: 55px;
    }
    .side-nav ul li span:nth-child(2) {
      display: none;
    }
    .side-nav ul li i{
-     font-size: 28px;
+     font-size: 30px;
      text-align: center;
    }
    .main-content {
@@ -84,13 +85,13 @@ body {
    }
    .side-nav ul li {
      text-align: center;
-     width: 60px;
+     width: 65px;
    }
    .side-nav ul li span:nth-child(2) {
      display: inline;
    }
    .side-nav ul li i {
-     font-size: 40px;
+     font-size: 30px;
      text-align: center;
    }
    .main-content {
