@@ -1,6 +1,8 @@
 .about {
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   position: absolute;
   left: 0;
   top: 0;
@@ -13,29 +15,15 @@
       font-family: 'PT Mono', monospace;
       overflow: scroll;
       overflow-x: hidden;
-      background-repeat: no-repeat;
-      background-size: 100% 100%;
-}
-.matt{
-  font-size: 60px;
-  border-bottom: 2px solid white;
-  margin-bottom: 0px;
-  margin-top: 60px;
-}
-.title{
-  display: flex;
-  justify-content: center;
-  font-family: 'PT Mono', monospace;
-  color: white;
 }
 .about-title{
   color: white;
   font-family: 'PT Mono', monospace;
-  font-size: 50px;
-  border-bottom: 2px solid white;
+  font-size: 6vh;
+  border-bottom: 1px solid white;
 }
 .skills-bar{
-  margin-top: 45px;
+  margin-top: 50px;
 }
 .about-row{
   margin-top: 50px;
@@ -47,12 +35,14 @@
   top: 15%;
   color: white;
   text-align: center;
-  font-size: 18px;
 }
 .content {
     margin: auto;
+    font-size: 12px;
     line-height: 2em;
     padding: 30px 0 30px;
+    /*display: flex;
+    align-items: center;*/
 }
 .col {
     text-align: center;
@@ -72,10 +62,10 @@
     border-top: 1px solid #111;
     border-right: 1px solid #333;
     border-bottom: 1px solid #333;
-    width: 95%;
+    width: 25vw;
 }
 #skill li em {
-    font-size: 18px;
+    font-size: 2vh;
     font-family: 'PT Mono', monospace;
     position: relative;
     top: -30px;
@@ -88,15 +78,107 @@
     left: 55px;
     box-shadow: 0px 0px 10px 1px rgba(0,179,0,0.6);
 }
-.html5{
-  height: 2px;
+.nick{
+  background: url("../images/Nick.jpg");
+  height: 150px;
+  width: 150px;
+  background-size: 100% 100%;
+  border-radius: 100%;
 }
-.photoshop{
-  height: 2px;
+.recommend{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
 }
-.jquery{
-  height: 2px;
+
+* {
+  box-sizing: border-box;
 }
+blockquote {
+  position: relative;
+  display: inline-block;
+  background: #eee;
+  padding: 40px 30px 30px 60px;
+  border-radius: 10px;
+  font-family: 'Bitter', serif;
+  color: #333;
+  text-align: left;
+
+  box-shadow: 1px 1px 1px #999,
+              2px 2px 1px #999,
+              3px 3px 1px #999;
+  transition-duration: .3s;
+
+  span.author {
+    position: relative;
+    display: block;
+    text-align: right;
+    margin-top: 5px;
+    color: #999;
+
+    i {
+      position: relative;
+      background: #eee;
+      padding-left: 5px;
+      font-style: italic;
+      z-index: 5;
+    }
+
+    &::before {
+      display: block;
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      background: #ccc;
+      z-index: 1;
+    }
+  }
+
+  &:hover {
+    box-shadow: 1px 1px 5px #999,
+                2px 2px 6px #999,
+                3px 3px 7px #999;
+  }
+
+  &::before {
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    content: "\"";
+    font-family: 'Bitter', serif;
+    font-size: 120px;
+    color: #999
+  }
+}
+/*blockquote {
+border:none;
+font-family:Georgia, "Times New Roman", Times, serif;
+margin-bottom:-30px;
+color: white;
+width: 55vw;
+}
+
+blockquote h3 {
+    font-size:21px;
+}
+
+blockquote h3:before {
+    content: open-quote;
+    font-weight: bold;
+    font-size:100px;
+    color: white;
+}
+blockquote h3:after {
+    content: close-quote;
+    font-weight: bold;
+    font-size:100px;
+    color: white;
+}*/
 .html5 {
     width: 70%;
     -moz-animation: html5 2s ease-out;
@@ -201,95 +283,4 @@
     100% {
         width: 50%;
     };
-}
-.testimonial-quote {
-    font-size: 16px;
-
-}
-.nick-quote{
-  width: 960px;
-  margin: 0 auto;
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-.testimonial-quote blockquote {
-    /* Negate theme styles */
-    border: 0;
-    margin: 0;
-    padding: 0;
-    background: none;
-    color: black;
-    font-family: Georgia, serif;
-    font-size: 20px;
-    font-style: italic;
-    line-height: 1.4 !important;
-    margin: 0;
-    position: relative;
-    text-shadow: 0 1px black;
-    z-index: 600;
-}
-.testimonial-quote blockquote * {
-    box-sizing: border-box;
-}
-.testimonial-quote blockquote p {
-    color: white;
-    line-height: 1.4 !important;
-    background: rgba(0,0,0,0.4);
-    border-radius: 20px;
-}
-.testimonial-quote blockquote p:first-child:before {
-    content: '\201C';
-    color: black;
-    font-size: 7.5em;
-    font-weight: 700;
-    opacity: .8;
-    position: absolute;
-    top: -.7em;
-    left: -.2em;
-    text-shadow: none;
-    z-index: -300;
-}
-.testimonial-quote .nick{
-    background: url("../images/Nick.jpg");
-    background-size: 90%;
-    border: 3px solid white;
-    border-radius: 50%;
-    /*display: block;*/
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    top: -.2em;
-    left: 0;
-
-}
-.testimonial-quote cite {
-    color: white;
-    display: block;
-    font-size: 1em;
-}
-.testimonial-quote cite span {
-    color: white;
-    font-size: 1em;
-    font-style: normal;
-    font-weight: 700;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    text-shadow: 0 1px black;
-}
-.testimonial-quote {
-    position: relative;
-}
-.testimonial-quote .quote-container {
-    padding-left: 160px;
-}
-.testimonial-quote.right .quote-container {
-    padding-left: 0;
-    padding-right: 160px;
-}
-.testimonial-quote.right img {
-    left: auto;
-    right: 0;
-}
-.testimonial-quote.right cite {
-    text-align: right;
 }
