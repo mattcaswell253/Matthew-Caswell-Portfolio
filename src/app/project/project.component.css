@@ -19,11 +19,20 @@
     display: flex;
     justify-content: center;
   }
+  .card-title{
+    font-size: 5vh;
+    color: white;
+    border-bottom: 2px solid white;
+  }
+  .click-here{
+    color: white;
+    font-size: 3vh;
+  }
   h1{
     color: white;
     position: relative;
     top: 50px;
-    font-size: 60px;
+    font-size: 8vh;
     border-bottom: 2px solid white;
     font-family: 'PT Mono', monospace;
   }
@@ -131,8 +140,8 @@
     position: absolute;
     /*width: 100%;
     height: 100%;*/
-    width: 750px;
-    height: 450px;
+    width: 40vw;
+    height: 50vh;
     text-align: center;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -141,10 +150,8 @@
 
   .card .back {
     position: relative;
-    /*width: 100%;
-    height: 100%;*/
-    width: 750px;
-    height: 450px;
+    width: 40vw;
+    height: 50vh;
     -webkit-transform: rotateX(180deg);
     transform: rotateX(180deg);
   }
@@ -240,14 +247,10 @@
   }
   .login ul{
     /*list-style: none;*/
-    font-size: 35px;
+    font-size: 4vh;
     margin-top: 15px;
   }
-  .card-title{
-    font-size: 40px;
-    color: white;
-    border-bottom: 2px solid white;
-  }
+
   label:hover .card {
     -webkit-transform: rotateX(20deg);
     transform: rotateX(20deg);
