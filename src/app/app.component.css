@@ -66,13 +66,13 @@ body {
    }
    .side-nav ul li {
      text-align: center;
-     width: 55px;
+     width: 45px;
    }
    .side-nav ul li span:nth-child(2) {
      display: none;
    }
    .side-nav ul li i{
-     font-size: 30px;
+     font-size: 20px;
      text-align: center;
    }
    .main-content {
@@ -85,7 +85,7 @@ body {
    }
    .side-nav ul li {
      text-align: center;
-     width: 65px;
+     width: 55px;
    }
    .side-nav ul li span:nth-child(2) {
      display: inline;

@@ -1,6 +1,7 @@
 .about {
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
+
   position: absolute;
   left: 0;
   top: 0;
@@ -16,29 +17,18 @@
       background-repeat: no-repeat;
       background-size: 100% 100%;
 }
-.matt{
-  font-size: 50px;
-  border-bottom: 2px solid white;
-  margin-bottom: 0px;
-  margin-top: 60px;
-}
-.title{
-  display: flex;
-  justify-content: center;
-  font-family: 'PT Mono', monospace;
-  color: white;
-}
 .about-title{
   color: white;
   font-family: 'PT Mono', monospace;
-  font-size: 40px;
-  border-bottom: 2px solid white;
+  font-size: 6vh;
+  border-bottom: 1px solid white;
 }
 .skills-bar{
-  margin-top: 45px;
+  margin-top: 30px;
+  font-size: 2vh;
 }
 .about-row{
-  margin-top: 50px;
+  margin-top: 30px;
   display: flex;
   justify-content: space-between;
 }
@@ -47,12 +37,12 @@
   top: 15%;
   color: white;
   text-align: center;
-  font-size: 16px;
+  height: 63vh;
 }
 .content {
     margin: auto;
-    line-height: 2em;
-    padding: 30px 0 30px;
+    padding: 15px 0 30px;
+    height: 400px;
 }
 .col {
     text-align: center;
@@ -62,9 +52,10 @@
     padding-top: 30px;
     padding-right: 40px;
     text-align: center;
+    padding-left: 8px;
 }
 #skill li {
-    margin-bottom: 70px;
+    margin-bottom: 8vh;
     background: #000;
     height: 5px;
     border-radius: 3px;
@@ -72,10 +63,10 @@
     border-top: 1px solid #111;
     border-right: 1px solid #333;
     border-bottom: 1px solid #333;
-    width: 95%;
+    width: 30vw;
 }
 #skill li em {
-    font-size: 18px;
+    font-size: 2.5vh;
     font-family: 'PT Mono', monospace;
     position: relative;
     top: -30px;
@@ -85,8 +76,21 @@
     margin: 2px 0;
     background: #007d00;
     position: absolute;
-    left: 55px;
+    left: 25px;
     box-shadow: 0px 0px 10px 1px rgba(0,179,0,0.6);
+}
+
+.matt{
+  font-size: 8vh;
+  border-bottom: 2px solid white;
+  margin-bottom: 0px;
+  margin-top: 40px;
+}
+.title{
+  display: flex;
+  justify-content: center;
+  font-family: 'PT Mono', monospace;
+  color: white;
 }
 .html5{
   height: 2px;
@@ -97,13 +101,19 @@
 .jquery{
   height: 2px;
 }
+.css3{
+  height: 2px;
+}
+.javascript{
+  height: 2px;
+}
 .html5 {
-    width: 70%;
+    width: 80%;
     -moz-animation: html5 2s ease-out;
     -webkit-animation: html5 2s ease-out;
 }
 .css3 {
-    width: 60%;
+    width: 65%;
     -moz-animation: css3 2s ease-out;
     -webkit-animation: css3 2s ease-out;
 }
@@ -127,7 +137,7 @@
         width: 0px;
     }
     100% {
-        width: 70%;
+        width: 80%;
     };
 }
 @-moz-keyframes css3 {
@@ -135,7 +145,7 @@
         width: 0px;
     }
     100% {
-        width: 60%;
+        width: 65%;
     };
 }
 @-moz-keyframes jquery {
@@ -167,7 +177,7 @@
         width: 0px;
     }
     100% {
-        width: 70%;
+        width: 80%;
     };
 }
 @-webkit-keyframes css3 {
@@ -175,7 +185,7 @@
         width: 0px;
     }
     100% {
-        width: 60%;
+        width: 65%;
     };
 }
 @-webkit-keyframes jquery {

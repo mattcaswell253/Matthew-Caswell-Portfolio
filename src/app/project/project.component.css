@@ -35,6 +35,7 @@
     font-size: 8vh;
     border-bottom: 2px solid white;
     font-family: 'PT Mono', monospace;
+    margin-top: 0px;
   }
   .work-example-one{
     background: url("../images/four.png");

@@ -17,11 +17,11 @@
   }
 h1 {
   font-family: 'PT Mono', monospace;
-  font-size: 50px;
+  font-size: 6.5vh;
   border-bottom: 2px solid white;
   font-weight: lighter;
 }
 h3 {
   font-family: 'PT Mono', monospace;
-  font-size: 40px;
+  font-size: 5vh;
 }
