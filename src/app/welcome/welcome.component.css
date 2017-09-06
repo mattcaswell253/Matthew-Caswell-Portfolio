@@ -22,6 +22,7 @@ h1 {
   font-weight: lighter;
 }
 h3 {
+  margin-top: 0px;
   font-family: 'PT Mono', monospace;
   font-size: 5vh;
 }
