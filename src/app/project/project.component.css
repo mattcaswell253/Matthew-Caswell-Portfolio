@@ -83,12 +83,45 @@
     background-size: 100% 100%;
     border: 2px solid white;
   }
+  .html-example-one {
+    position: relative;
+    background: url("../images/ten.jpg");
+    background-size: 100% 100%;
+    border: 2px solid white;
+  }
+  .html-example-two {
+    position: relative;
+    background: url("../images/nine.jpg");
+    background-size: 100% 100%;
+    border: 2px solid white;
+  }
+  .back-one-html{
+      background:
+      linear-gradient(
+        rgba(40,40,40,.90),
+        rgba(40,40,40,.90)
+        ),
+        url("../images/ten.jpg");
+        background-size: 100% 100%;
+        border: 2px solid white;
+  }
+  .back-two-html{
+    background:
+    linear-gradient(
+      rgba(40,40,40,.90),
+      rgba(40,40,40,.90)
+      ),
+      url("../images/nine.jpg");
+      background-size: 100% 100%;
+      border: 2px solid white;
+  }
   .thumbnails{
     display: flex;
     justify-content: space-around;
     position: relative;
     top: 100px;
     margin-right: 10px;
+    margin-top: 20px;
   }
   .thumbnails2{
     display: flex;
